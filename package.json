@@ -1,0 +1,33 @@
+{
+  "name": "iag-api",
+  "version": "1.0.0",
+  "description": "API for posting and fetching password",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "ts-node ./src/App.ts",
+    "test": "jest"
+  },
+  "author": "Venkat",
+  "license": "ISC",
+  "dependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^4.17.0",
+    "@types/express-session": "^1.15.13",
+    "@types/lodash": "^4.14.136",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "lodash": "^4.17.15",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.17",
+    "@types/supertest": "^2.0.8",
+    "jest": "^24.8.0",
+    "jest-helpers": "^3.0.1",
+    "supertest": "^4.0.2",
+    "ts-jest": "^24.0.2"
+  }
+}
